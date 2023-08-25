@@ -1,0 +1,147 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+ background-color: aliceblue;   
+}
+
+a {
+    text-decoration: none;
+}
+
+.header {
+    position: relative;
+    background-color: rgb(141 184 184);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    align-content: center;
+    height: 5rem;
+}
+
+.header #logo {
+    position: relative;
+    left: 7em;
+    width: 80px;
+    height: 80px;
+    background-color:  rgb(141 184 184);
+}
+
+.header ul li {
+    position: relative;
+    display: inline;
+    list-style: none;
+    margin: 25px;
+    right: 6rem;
+}
+
+.header ul li a {
+    text-decoration: none;
+    color: rgb(46, 99, 94);
+    font-size: 20px;
+    font-weight: 100;
+}
+
+.header ul li a:hover {
+    /* color: rgb(46, 99, 94); */
+    color: rgba(199, 87, 65, 0.532);
+}
+
+/* ---------------------------------- container ---------------------------------------------------- */
+
+.container {
+    height: 100vh;
+    background-image: url(./images/bg.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    align-content: center;
+}
+
+.container .left {
+    position: relative;
+    top: -8rem;
+}
+
+.container h1 {
+    position: relative;
+    color: rgb(214, 235, 107);
+    font-size: 5rem;
+}
+
+.container .para {
+    position: relative;
+    color: rgb(181, 232, 162);
+    width: 200px;
+    height: 136px;
+}
+
+.container .para p {
+    position: relative;
+    font-size: 39px;
+    /* left: 5rem; */
+    font-weight: bolder;
+    text-align: center;
+}
+
+.container .para input {
+    height: 45px;
+    width: 17vw;
+    padding: 14px;
+    border-radius: 4px;
+}
+
+.container .para input::placeholder{
+    position: relative;
+    left: 2vw;
+    font-weight: bold;
+    font-size: 1rem;
+    color: black;
+    padding: 4px;
+}
+
+.btn {
+    position: relative;
+    left: 22vw;
+    top: -5.6vh;
+    background-color: rgb(26, 27, 31);
+    color: white;
+    padding: 11px;
+    width: 11vw;
+    text-align: center;
+    font-weight: bolder;
+}
+
+.btn:hover {
+   background-color: rgba(132, 161, 183, 0.386);
+   color: black;
+   cursor: pointer;
+   transition: 1s;
+}
+
+#sign-up {
+    position: relative;
+    cursor: pointer;
+    padding: 10px;
+    font-weight: bolder;
+    font-size: 17px;
+    background-color: azure;
+    text-align: center;
+    color: black;
+}
+
+#sign-up:hover {
+    background-color: rgba(240, 255, 255, 0.488);
+    transition: .8s;
+}
+
+.container img {
+    width: 500px;
+    height: 500px;
+    border-radius:30px ;
+}
